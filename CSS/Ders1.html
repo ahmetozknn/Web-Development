@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        Etiket İsmidir bütün h1leri kapsar
+        classlar birden cok kullanılabilir 
+        ıd essizsdir sadece bir yerde olur
+        h1{
+            color: rgb(33, 45, 30);
+        }
+    </style> -->
+   <style>
+    p{
+        color: red;
+    }
+    .kutu1{
+        background-image:url(indir.jpeg);
+        background-size: cover;
+        background-size: center;
+        background-color: grey;
+        border: 10px,solid,green;
+        border-radius: 20px;
+        width: 500px;
+        height: 500px;
+        color: red;
+        text-align: center;
+    }
+    /* CSSDE YORUM SATIRI DEMEK*/ 
+    #p{
+        color: cadetblue;
+    }
+    .span{
+        color: slategray;
+    }
+   </style>
+    <link rel="stylesheet" href="Test.css">
+</head>
+<body>
+    <div class="kutu1">
+        <h1>Lorem, ipsum.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, iste?</p>
+    </div>
+    <!--
+    1-etiket kullanarak dahil etme
+    2-style etiketleri ile dahil etme
+    3- harici bir css dosyası ile dahil etme
+    --->
+    <!-- 1 secenek  <h1 style="color:antiquewhite;">Ahmet Özkan</h1> -->
+
+    <h1 class="span">Ahmet Özkan</h1>
+    <span class="span">Lorem ipsum dolor sit amet.</span>
+    <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</body>
+</html>

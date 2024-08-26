@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    
+}
+li{
+    padding: 30px;
+    list-style: none;
+    font-size: 100px;
+    border: 3px solid rgb(8, 8, 45);
+    background-color: rgb(0, 13, 85);
+    border-radius: 15%;
+    margin-right: 50px;
+    
+}
+a{
+    color: white;
+}
+a i{
+    transition: 0.9s all;
+}
+li a:hover > i{
+ transform: scale(1.2) rotate(360deg); 
+ 
+
+}
+#linkedin:hover{
+    background: #4267B2;
+}
+#tw:hover{
+    background: rgb(49, 79, 228);
+}
+#gi:hover{
+    background: rgba(14, 6, 6, 0.636);
+}
+#ing:hover{
+    background:rgb(141, 4, 141) ;
+}
+#you:hover{
+    background: red;
+}
+

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiziBOx</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <div class="navbar">
+        <ul class="sol">
+            <li>DiziBox</li>
+        </ul>
+        <ul class="orta">
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Filmler</a></li>
+            <li><a href="#">Diziler</a></li>
+            <li><a href="#">Listem</a></li>
+            <li><a href="#">Popüler</a></li>
+        </ul>
+        <ul class="sag">
+            <li><img src="2.jpg" alt=""></li>
+            <li id="as">
+                <a href="#" id="sa">Hesabım</a>
+                <div class="hesap">
+                    <ul>
+                        <li><a href="#" id="Eposta">E-posta</a></li>
+                        <li><a href="#" id="Tel">Telefon Numarası</a></li>
+                        <li><a href="#" id="Adres">Adres</a></li>
+                        <li><a href="#" id="Puan">Puan</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="sidebar">
+        <table>
+            <tr><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></tr>
+            <tr><a href=""><i class="fa-solid fa-house"></i></a></tr>
+            <tr><a href=""><i class="fa-solid fa-user-group"></i></a></tr>
+            <tr><a href=""><i class="fa-solid fa-floppy-disk"></i></a></tr>
+            <tr><a href=""><i class="fa-solid fa-clock"></i></a></tr>
+            <tr><a href=""><i class="fa-solid fa-cart-shopping"></i></a></tr>
+            <tr><a href=""><i class="fa-solid fa-gear"></i></a></tr>
+        </table>
+    </div> 
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="featured-content">
+                <img class="img" src="spiderman-title.png" alt="">
+                <p class="desc">Marvel Sinematik Evreni'nin 23. filmi olan Spider-Man: Far From Home, Endgame'de yaşananlar sonrası tekrardan ayaklarının üzerinde durmaya çalışan Peter Parker'ın, okul arkadaşlarıyla gittiği Avrupa gezisi sırasında Nick Fury'nin gizemli bir görevi üzerine yıkmasıyla gelişen olayları konu ediniyor.</p>
+                <div class="featured-buttons">
+                    <button >
+                        <i class="fa-solid fa-circle-play"></i>
+                        Oynat
+    
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-circle-info"></i>
+                        Daha Fazla Bilgi</button>
+                </div>
+            </div>
+            <div class="film-listesi-filtresi">
+                <select >
+                    <option >Aksiyon</option>
+                    <option >Animasyon</option>
+                    <option >Belgesel</option>
+                    <option >Komedi</option>
+                    <option >Bilim Kurgu</option>
+                </select>
+            </div>
+
+        </div>
+
+
+    <div class="film-listesi">
+        <h1 class="film-listesi-başlık">Popüler</h1>
+        <div class="film-listesi-wrapper">
+            <ul class="film-liste">
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f1.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">SPIDER-MAN</span>
+                        <div class="movie-item-buttons">
+                            <a href="https://www.google.com/search?q=spiderman+izle&oq=spider&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTIPCAEQLhhDGLEDGIAEGIoFMgYIAhBFGDkyDAgDEAAYQxiABBiKBTIPCAQQLhhDGLEDGIAEGIoFMg8IBRAuGEMYsQMYgAQYigUyDQgGEC4YgwEYsQMYgAQyCggHEC4YsQMYgAQyDQgIEC4YgwEYsQMYgAQyBwgJEAAYjwLSAQc3MDdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" style="color: white;"><i  class="fa-solid fa-circle-play"></i></a>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f2.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">HULK</span>
+                        <div class="movie-item-buttons">
+                            <a href="https://www.google.com/search?q=hulk+izle&sca_esv=564b5475caa34310&sxsrf=ADLYWIJNqpjzhOtRBftpvSLVVe3PppPJGg%3A1723551557125&ei=RU-7ZtyrB4SJ7NYPg53ZoQo&ved=0ahUKEwic4sHy-fGHAxWEBNsEHYNONqQQ4dUDCA8&uact=5&oq=hulk+izle&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWh1bGsgaXpsZTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyChAAGIAEGEMYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj6EFCzBViLEHACeACQAQCYAZsBoAG-CaoBAzAuObgBA8gBAPgBAZgCCaAC9QioAhPCAgcQIxgnGOoCwgIHEC4YJxjqAsICFBAAGIAEGOMEGLQCGOkEGOoC2AEBwgIWEAAYAxi0AhjlAhjqAhiMAxiPAdgBAsICChAjGIAEGCcYigXCAggQABiABBixA8ICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAg0QLhiABBixAxhDGIoFwgIEEAAYA8ICCBAuGIAEGLEDwgILEC4YgAQYsQMYgwHCAhAQLhiABBixAxhDGIMBGIoFwgIKEC4YgAQYQxiKBcICHxAuGIAEGLEDGEMYgwEYigUYlwUY3AQY3gQY4ATYAQPCAhAQABiABBixAxhDGIMBGIoFwgIFEC4YgASYAwiIBgG6BgYIARABGAG6BgYIAhABGAu6BgYIAxABGBSSBwMxLjigB-1g&sclient=gws-wiz-serp" style="color: white;"><i  class="fa-solid fa-circle-play"></i></a>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                 <li class="film-item">
+                    <img class="film-item-resmi" src="f3.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">GORA</span>
+                        <div class="movie-item-buttons">
+                         <a href="https://www.google.com/search?q=gora+izle&sca_esv=564b5475caa34310&sxsrf=ADLYWIJNqpjzhOtRBftpvSLVVe3PppPJGg%3A1723551557125&ei=RU-7ZtyrB4SJ7NYPg53ZoQo&ved=0ahUKEwic4sHy-fGHAxWEBNsEHYNONqQQ4dUDCA8&uact=5&oq=gora+izle&gs_lp=Egxnd3Mtd2l6LXNlcnAiCWdvcmEgaXpsZTIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBjLATIFEAAYgARI8RBQtwRYhQ9wAngBkAEAmAGRAaABkAmqAQMwLjm4AQPIAQD4AQGYAgqgArgJqAIUwgIHECMYJxjqAsICBxAuGCcY6gLCAhYQABgDGLQCGOUCGOoCGIwDGI8B2AEBwgIKECMYgAQYJxiKBcICEBAuGIAEGNEDGMcBGCcYigXCAgsQLhiABBixAxiDAcICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMY0QMYgwEYxwHCAgQQIxgnwgIKEC4YgAQYQxiKBcICChAAGIAEGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgIdEC4YgAQY0QMYxwEYigUYlwUY3AQY3gQY4ATYAQLCAg0QABiABBixAxhDGIoFwgINEC4YgAQYsQMYQxiKBcICCBAuGIAEGLEDwgILEC4YgAQYxwEYrwHCAgUQLhiABMICHBAuGIAEGLEDGEMYigUYlwUY3AQY3gQY4ATYAQKYAweIBgG6BgYIARABGAu6BgYIAhABGBSSBwMxLjmgB4Nn&sclient=gws-wiz-serp" style="color: white;">  <i  class="fa-solid fa-circle-play"></i></a> 
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f4.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">DAREDEVIL</span>
+                        <div class="movie-item-buttons">
+                          <a href="https://www.google.com/search?q=daredevil+izle&oq=daredevil+izle&gs_lcrp=EgZjaHJvbWUqDQgAEAAYgwEYsQMYgAQyDQgAEAAYgwEYsQMYgAQyBwgBEAAYgAQyBwgCEAAYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgyNjE5ajBqOagCALACAA&sourceid=chrome&ie=UTF-8" style="color: white;"> <i  class="fa-solid fa-circle-play"></i></a>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>          
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f5.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">HOBBİT</span>
+                        <div class="movie-item-buttons">
+                            <a href="https://www.google.com/search?q=hobbit+izle&sca_esv=564b5475caa34310&sxsrf=ADLYWIJwQqcfVHq8POi_Ut0TdKdSYg8lfA%3A1723551708867&ei=3E-7ZpLONMeRxc8P9JWi2Qw&ved=0ahUKEwiSrO-6-vGHAxXHSPEDHfSKKMsQ4dUDCA8&uact=5&oq=hobbit+izle&gs_lp=Egxnd3Mtd2l6LXNlcnAiC2hvYmJpdCBpemxlMggQLhiABBjUAjIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEC4YgAQY1AIyFxAuGIAEGNQCGJcFGNwEGN4EGOAE2AECSIkXUJgEWKQWcAR4AZABAJgBnQGgAcEMqgEEMC4xMrgBA8gBAPgBAZgCEKAChw2oAhLCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICExAuGIAEGLADGEMYyAMYigXYAQHCAhYQLhiABBiwAxhDGNQCGMgDGIoF2AEBwgIHECMYJxjqAsICGRAuGIAEGEMY1AIYtAIYyAMYigUY6gLYAQHCAhYQLhiABBhDGLQCGMgDGIoFGOoC2AEBwgIKECMYgAQYJxiKBcICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAhEQLhiABBixAxjRAxiDARjHAcICEBAuGIAEGLEDGEMYgwEYigXCAgoQLhiABBhDGIoFwgIKEAAYgAQYQxiKBcICBRAuGIAEwgITEC4YgAQYsQMYQxiDARjUAhiKBcICEBAAGIAEGLEDGEMYgwEYigXCAg0QLhiABBhDGNQCGIoFwgINEC4YgAQYsQMYQxiKBcICIhAuGIAEGLEDGEMYgwEY1AIYigUYlwUY3AQY3gQY4ATYAQLCAg4QLhiABBixAxjHARivAcICChAuGIAEGNQCGArCAgcQABiABBgKwgIZEC4YgAQY1AIYChiXBRjcBBjeBBjgBNgBApgDBogGAZAGFLoGBggBEAEYCLoGBggCEAEYFJIHBDQuMTKgB86tAQ&sclient=gws-wiz-serp" style="color: white; "  ><i  class="fa-solid fa-circle-play"></i></a>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>  
+            </ul>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+    <div class="film-listesi">
+        <h1 class="film-listesi-başlık">Gündemdekiler</h1>
+        <div class="film-listesi-wrapper">
+            <ul class="film-liste">
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f7.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">DARK</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f6.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">AROG</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                 <li class="film-item">
+                    <img class="film-item-resmi" src="f3.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">GORA</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f5.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">HOBBİT</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>          
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f4.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">DAREDEVİL</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>  
+            </ul>
+            <i class="fa-solid fa-angle-right"></i>
+
+        </div>
+    </div>
+    <div class="film-listesi">
+        <h1 class="film-listesi-başlık">Yeni Çıkanlar</h1>
+        <div class="film-listesi-wrapper">
+            <ul class="film-liste">
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f4.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">DAREDEVIL</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f7.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">DARK</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                 <li class="film-item">
+                    <img class="film-item-resmi" src="f1.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">SPIDER-MAN</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f2.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">HULK</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>          
+                <li class="film-item">
+                    <img class="film-item-resmi" src="f5.jpg" alt="">
+                    <div class="film-item-bilgi">
+                        <span class="film-baslığı">HOBBİT</span>
+                        <div class="movie-item-buttons">
+                            <i  class="fa-solid fa-circle-play"></i>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <i class="fa-solid fa-thumbs-down"></i>
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                    </div>
+                </li>  
+            </ul>
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+    </div>
+        
+</body>
+</html>

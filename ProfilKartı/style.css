@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(201766.jpg); /* Arka plan görüntüsünü buraya ekleyin */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid gray;
+    background-color: rgb(42, 43, 42); /* Konteyner içeriğinin okunabilir olması için arka plan rengi ekleyin */
+}
+
+.container .content {
+    padding: 40px;
+    background-color: rgb(42, 43, 42); /* Üst bölümün arka plan rengini sabitler */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 50%;
+}
+
+.container h1 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 8px;
+    color: white;
+}
+
+#as {
+    color: rgb(182, 72, 72);
+    margin: 8px;
+    margin-bottom: 15px;
+}
+
+.container .icon a i {
+    margin-left: 40px;
+}
+
+.container .icon a {
+    font-size: 30px;
+    color: white;
+}
+
+.container .icon a:hover{
+    color: rgb(182, 72, 72);
+    transition: 0.5s;
+}
+.container .icon {
+    margin: 14px;
+}
+
+.container .button button {
+    border: 1px solid white;
+    margin: 30px;
+    background-color: rgb(70, 70, 70);
+    height: 40px;
+    width: 200px;
+    border-radius: 10%;
+    padding-top: 6px;
+    color: rgb(182, 72, 72); /* Metin rengini kırmızı yapar */
+    text-align: center; /* Metni ortalar */
+    cursor: pointer;
+}
+
+.container .alt {
+    background-color: #f4f4f4; /* Alt bölümün arka plan rengini beyaz yapar */
+    padding: 40px 20px; /* İçerik ile kenarlar arasına boşluk ekler */
+}
+.container .button button:hover{
+    color: white;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between; /* Öğeler arasında boşluk bırakır */
+    text-align: center; /* Metni ortalar */
+}
+
+.item {
+    flex: 1;
+    font-size: 13px;
+}
+
+.item span {
+    display: block;
+    color: #2c3a47;
+    font-size: 30px;
+    font-weight: bold; /* Sayıları kalın yapar */
+}
